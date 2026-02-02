@@ -19,7 +19,7 @@ jobs:
       RUST_BACKTRACE: 1
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     #- run: rustup toolchain install stable --profile minimal
     - uses: Swatinem/rust-cache@v2
     - name: Check formatting
